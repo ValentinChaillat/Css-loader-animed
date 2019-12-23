@@ -1,0 +1,104 @@
+
+header
+{
+
+}
+body{
+  background-color: #1B1B1B;
+
+}
+footer
+{
+
+}
+.texte{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  opacity: 0;
+  animation: loader-txt 2s forwards;
+}
+.bloc{
+  position: relative;
+  top:100px;
+  position: center;
+  height: 5px;
+  width:1px;
+  background: white;
+  margin: 0 auto;
+  animation: loader-bar 3s;
+  opacity: 0;
+}
+
+@keyframes loader-bar {
+0% {
+  opacity: 0;
+  transform: scaleX(1);
+}
+60%{
+  transform: scaleX(1200);
+  opacity: 1;
+}
+}
+@keyframes loader-txt {
+from {
+  transform: translateY(1000px);
+  opacity: 0;
+  font-size: 1em;
+}
+to{
+  transform: translateY(150px);
+  opacity: 1;
+  font-size: 5em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* test */
